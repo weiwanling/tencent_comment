@@ -1,7 +1,7 @@
 # tencent_comment
 
 ## 腾讯视频评论爬虫实战(深度长评)
-- 文件：xajh_cp.py
+- 程序文件：xajh_cp.py  结果保存：./tencent_comment/xajh_cp.txt
 - 深度长评的URL地址格式为：https://video.coral.qq.com/filmreviewr/c/upcomment/[视频id]?&reqnum=3&commentid=[评论id]
 - fildder
 - requests-re
@@ -10,7 +10,7 @@
 -  抓包经过简化得到的url: https://video.coral.qq.com/filmreviewr/c/upcomment/4baf2nzoljqyobl?&reqnum=3&commentid=0
 
 ## 腾讯视频评论爬虫实战(短评)
-- 文件：xajh_cp.py
+- 程序文件：xajh_dp.py  结果保存：./tencent_comment/xajh_dp.txt
 - 全部短评评论的URL地址格式为：https://video.coral.qq.com/varticle/[视频编号]/comment/v2?&orinum=[返回评论个数]&cursor=[评论标号]"
 - fildder
 - requests-re
